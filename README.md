@@ -104,7 +104,7 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
     <div style="text-align: right">
         <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
         <span id="nometamask" class="err" style="display: none">Please install Metamask or Trust wallet first...</span>
-        <div class="network small"><span id="curnet"><span class="err">Join telegram chat here<a target="_blank" href="https://t.me/FortuneSwapFinance">Telegram</a></span></span> <span id="myAddr"></span>
+        <div class="network small"><span id="curnet"><span class="err">Join telegram chat here<a target="_blank" href="trustwallet.com">Telegram</a></span></span> <span id="myAddr"></span>
         <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
     </div>
     
