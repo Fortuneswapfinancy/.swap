@@ -137,8 +137,7 @@ Tokens are generally assets that can represent proof of ownership or even member
         <p><button id="buyBtn" style="text-align: center">Buy</button></p>
         <p>In my wallet: <span id="myTokens"></span> <span class="tokenSymbol">FORTUNE</span></p>
     </div>
-    <hr>
-![11](https://user-images.githubusercontent.com/89584603/131085109-821efca5-58ff-4199-b52d-38ec7eb2ad94.jpg)    
+    <hr>    
     <div style="text-align: left">
         <h1>Token sale information</h1>
         <p>Hardcap: <span class="hardcap">300.0</span> BNB (~ <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span>)</p>
@@ -169,7 +168,12 @@ Tokens are generally assets that can represent proof of ownership or even member
             
         <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
     </div>
-    
+   <div style="text-align: right">
+<button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
+<span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
+<div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
+<span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
+</div> 
 <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
 <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
 <script src='https://dappbuilder.org/bsc/tokensalewithreferral2/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
