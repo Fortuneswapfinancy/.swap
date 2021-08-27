@@ -125,6 +125,7 @@ max-width: 100%;
 Tokens are generally assets that can represent proof of ownership or even membership. As tokens are already being used for a wide range of purposes, many specialized blockchains have been developed with native intent to support tokens, the most common of which is currently Ethereum and their ERC standard tokens. Socios.com is an app for football (soccer) fans, where users acquire voting rights to influence the clubs they support by acquiring club-specific Fan tokens..     
         
     <hr>
+<p>  pre-sale start 27th Augast 2021 to be closed on 10th september 2021   
 <p>  Minimum to buy is 0.03 BNB
 <p>  Maximum to buy is 10 BNB
 <p>  Token to be listed the 1st October 2021,  
