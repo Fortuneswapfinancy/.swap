@@ -101,25 +101,25 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
 
 <body>
     
-    <div style="text-align: center">
+    <div style="text-align: right">
         <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
-        <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
-        <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
+        <span id="nometamask" class="err" style="display: none">Please install Metamask or Trust wallet first...</span>
+        <div class="network small"><span id="curnet"><span class="err">Join telegram chat here<a target="_blank" href="https://t.me/FortuneSwapFinance">Telegram</a>)</span></span> <span id="myAddr"></span>
         <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
     </div>
     
-    <div style="text-align: center">
+    <div style="text-align: left">
         <h1>Token info</h1>
         <h2><span id="tokenName"> FortuneSwap</span> (<span class="tokenSymbol">FORTUNE</span>)</h2>
         <p><a target="_blank" href="https://bscscan.com/token/0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f" id="tokenAddress">0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f</a></p>
         <!-- Reserved in case you want to show decimals and total supply: Decimals <span id="#tokenDecimals"></span> Total supply <span id="#tokenSupply"></span>-->
         <p>Do not send BNB to the token contract!</p>
-        <p><button id="addToken" style="text-align: center">Add to Metamask</button> <button id="copyToken" style="text-align: center">Copy address</button></p>
+        <p><button id="addToken" style="text-align: left">Add to Metamask</button> <button id="copyToken" style="text-align: center">Copy address</button></p>
     </div>
     
     <hr>
     
-    <div style="text-align: center">
+    <div style="text-align: left">
         <h1>Token sale status</h1>
         <h1>
             <span id="active" style="display:none" class="status green">Active</span>
@@ -143,7 +143,7 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
     </div>
     <hr>
     
-    <div style="text-align: center">
+    <div style="text-align: left">
         <h1>Token sale information</h1>
         <p>Hardcap: <span class="hardcap">300.0</span> BNB (~ <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span>)</p>
         <p>Rate: 1 BNB = <span class="rate">4000000000.0</span> <span class="tokenSymbol">FORTUNE</span> (~ <span class="price">2.5e-10</span> BNB/<span class="tokenSymbol">FORTUNE</span>)</p>
@@ -151,7 +151,7 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
     </div>
     <hr>
     
-    <div style="text-align: center">
+    <div style="text-align: left">
         <h1>Sale contract</h1>
         <p>You can also buy tokens by sending BNB directly from your wallet to this contract<br>
         (please increase gas limit to 200,000 or even more for tokens with special functions like autoLP, swaps, etc.)</p>
@@ -160,7 +160,7 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
     </div>
     <hr>
     
-    <div id="refarea" style="text-align: center">
+    <div id="refarea" style="text-align: left">
         <h1>Referral program</h1>
         <p>Share your referral link and get paid instantly to your wallet for every referred token purchase.</p>
         <p>Total paid to referrers: <span id="refTotal"></span> BNB</p>
@@ -170,7 +170,7 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
         <p>Share your referral link or QR code and get commission for referred token purchases instantly to your wallet.</p>
         <p><input type="text" id="referLink" size="70" readonly="true"> <button id="copyreflink">Copy link</button></p>
         <div id="refqrcode">
-            <div style="text-align: center" id="refqr"></div>
+            <div style="text-align: left" id="refqr"></div>
         </div>
         <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
     </div>
