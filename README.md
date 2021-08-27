@@ -23,7 +23,7 @@ var contractAddressToken = '0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f';
 
 <style>
 
-body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: white; background-color: blue; font-size: 16px; font-weight: 400;}
+body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: white; background-color: navy; font-size: 16px; font-weight: 400;}
 
 h1 { font-size: 24px; font-weight: 700;}
 h2 { font-size: 22px; font-weight: 500;}
