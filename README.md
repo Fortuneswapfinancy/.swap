@@ -1,122 +1,112 @@
-GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
-
+<!DOCTYPE html>
 <html >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Token sale page">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Token sale page">
 
-    <title>Token sale</title>
-   
-    <script>
-        var test = false0x68310fA2391BAd2ee628272E44CA4F97b6aa2166';
-        var contractAddressToken = '0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f';
-    </script>
-    
-    <style>
-        
-        body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: #FFFFFF; background-color: black; font-size: 16px; font-weight: 400;}
+<title>Token sale</title>
 
-        h1 { font-size: 24px; font-weight: 700;}
-        h2 { font-size: 22px; font-weight: 500;}
+<script>
+var test = false; // False if contracts are on Mainnet
+var contractAddressSale = '0x68310fA2391BAd2ee628272E44CA4F97b6aa2166';
+var contractAddressToken = '0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f';
+</script>
 
-        .small {
-            font-size: 12px;
-        }
+<style>
 
-        .err {
-             color: red;
-        }
-        
-        .green {
-             color: green;
-        }
-        
-        .blue {
-             color: blue;
-        }
+body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: #FFFFFF; background-color: #000000; font-size: 16px; font-weight: 400;}
 
-        * {
-          box-sizing: border-box;
-        }
-        
-        a {
-          color: #FFFFFF;
-          text-decoration: none;
-        }
-        
-        a:hover {
-          color: #C0C0C0;
-        }
-        
-        .clickable {
-            cursor: pointer;
-        }
-        
-        .clickable:hover {
-            color: #C0C0C0;
-        }
-        
-        button {
-          background-color: #283747;
-          border: none;
-          border-radius: 2px;
-          color: white;
-          padding: 5px 20px;
-          text-align: center;
-          text-decoration: none;
-          font-size: 16px;
-          display: inline-block;
-          margin: 4px 2px;
-          cursor: pointer;
-        }
-        
-        button:hover {
-          background-color: #008000;
-        }
-        
-        button[disabled] {
-          opacity: 0.6;
-          cursor: not-allowed;
-        }
-        
-        hr {
-            margin: 20px;
-            border: 0;
-            border-top: 1px dashed;
-        }
-        
-        input {
-          text-align: center;
-          font-size: 18px;
-          background-color: #000000;
-          color: #FFFFFF;
-          border:1px solid;
-          max-width: 100%;
-        }
-    </style>
-    
+h1 { font-size: 24px; font-weight: 700;}
+h2 { font-size: 22px; font-weight: 500;}
+
+.small {
+font-size: 12px;
+}
+
+.err {
+color: red;
+}
+
+.green {
+color: green;
+}
+
+.blue {
+color: blue;
+}
+
+* {
+box-sizing: border-box;
+}
+
+a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+a:hover {
+color: #C0C0C0;
+}
+
+.clickable {
+cursor: pointer;
+}
+
+.clickable:hover {
+color: #C0C0C0;
+}
+
+button {
+background-color: #283747;
+border: none;
+border-radius: 2px;
+color: white;
+padding: 5px 20px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #008000;
+}
+
+button[disabled] {
+opacity: 0.6;
+cursor: not-allowed;
+}
+
+hr {
+margin: 20px;
+border: 0;
+border-top: 1px dashed;
+}
+
+input {
+text-align: center;
+font-size: 18px;
+background-color: #000000;
+color: #FFFFFF;
+border:1px solid;
+max-width: 100%;
+}
+</style>
+
 </head>
 
 <body>
-    
-    <div style="text-align: right">
-        <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
-        <span id="nometamask" class="err" style="display: none">Please install Metamask or Trust wallet first...</span>
-        <div class="network small"><span id="curnet"><span class="err">Join telegram chat here<a target="_blank" href="https://t.me/FortuneSwapFinance">Telegram</a></span></span> <span id="myAddr"></span>
-        <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
-    </div>
-    
-    <div style="text-align: left">
-        <h1>Token info</h1>
-      <p>   The FORTUNE token is FortuneSwap’s utility token which we have denominated as our Prosperity Token. 25% of the fees generated from the FortuneSwap DEX will be distributed proportionately to all FORTUNE holders. The more tokens you hold, the bigger the reward. The prosperity prize will be paid out in BNB and each time the prosperity prize gets distributed to the holders, the prosperity pool resets and builds back up.
-        <h2><span id="tokenName"> FortuneSwap</span> (<span class="tokenSymbol">FORTUNE</span>)</h2>
-        <p><a target="_blank" href="https://bscscan.com/token/0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f" id="tokenAddress">0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f</a></p>
-        <!-- Reserved in case you want to show decimals and total supply: Decimals <span id="#tokenDecimals"></span> Total supply <span id="#tokenSupply"></span>-->
-        <p>Do not send BNB to the token contract!</p>
-        <p><button id="addToken" style="text-align: left">Add to your wallet</button> <button id="copyToken" style="text-align: center">Copy address</button></p>
-    </div>
+
+<div style="text-align: center">
+<button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
+<span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
+<div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
+<span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
+</div>
     
     <hr>
     
