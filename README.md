@@ -102,7 +102,7 @@ max-width: 100%;
 
 <body>
 
-<div style="text-align: right">
+<div style="text-align: left">
 <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
 <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
 <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
