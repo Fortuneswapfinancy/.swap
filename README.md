@@ -120,7 +120,7 @@ max-width: 100%;
         </h1>
  <p>  What are Fan tokens?
 
-Tokens are generally assets that can represent proof of ownership or even membership. As tokens are already being used for a wide range of purposes, many specialized blockchains have been developed with native intent to support tokens, the most common of which is currently Ethereum and their ERC standard tokens. Socios.com is an app for football (soccer) fans, where users acquire voting rights to influence the clubs they support by acquiring club-specific Fan tokens.     
+Tokens are generally assets that can represent proof of ownership or even membership. As tokens are already being used for a wide range of purposes, many specialized blockchains have been developed with native intent to support tokens, the most common of which is currently Ethereum and their ERC standard tokens. Socios.com is an app for football (soccer) fans, where users acquire voting rights to influence the clubs they support by acquiring club-specific Fan tokens..     
         <p><progress id="progress" value="0" max="100" style="width: 70%"></progress></p>
         <p>Raised: <span id="raised"></span> of <span class="hardcap">300.0</span> BNB</p>
         <p>Tokens sold: <span id="sold"></span> of <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span></p>
