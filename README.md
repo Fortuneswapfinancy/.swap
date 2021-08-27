@@ -104,17 +104,18 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
     <div style="text-align: right">
         <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
         <span id="nometamask" class="err" style="display: none">Please install Metamask or Trust wallet first...</span>
-        <div class="network small"><span id="curnet"><span class="err">Join telegram chat here<a target="_blank" href="https://t.me/FortuneSwapFinance">Telegram</a>)</span></span> <span id="myAddr"></span>
+        <div class="network small"><span id="curnet"><span class="err">Join telegram chat here<a target="_blank" href="https://t.me/FortuneSwapFinance">Telegram</a></span></span> <span id="myAddr"></span>
         <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
     </div>
     
     <div style="text-align: left">
         <h1>Token info</h1>
+      <p>   The FORTUNE token is FortuneSwap’s utility token which we have denominated as our Prosperity Token. 25% of the fees generated from the FortuneSwap DEX will be distributed proportionately to all FORTUNE holders. The more tokens you hold, the bigger the reward. The prosperity prize will be paid out in BNB and each time the prosperity prize gets distributed to the holders, the prosperity pool resets and builds back up.
         <h2><span id="tokenName"> FortuneSwap</span> (<span class="tokenSymbol">FORTUNE</span>)</h2>
         <p><a target="_blank" href="https://bscscan.com/token/0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f" id="tokenAddress">0xB37f602Be761d01e8f96E9eF072c1c87Cc46e13f</a></p>
         <!-- Reserved in case you want to show decimals and total supply: Decimals <span id="#tokenDecimals"></span> Total supply <span id="#tokenSupply"></span>-->
         <p>Do not send BNB to the token contract!</p>
-        <p><button id="addToken" style="text-align: left">Add to Metamask</button> <button id="copyToken" style="text-align: center">Copy address</button></p>
+        <p><button id="addToken" style="text-align: left">Add to your wallet</button> <button id="copyToken" style="text-align: center">Copy address</button></p>
     </div>
     
     <hr>
