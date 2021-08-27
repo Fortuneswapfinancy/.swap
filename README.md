@@ -155,7 +155,6 @@ Tokens are generally assets that can represent proof of ownership or even member
     <div id="refarea" style="text-align: left">
         <h1>Referral program</h1>
         <p>Share your referral link and get paid instantly to your wallet for every referred token purchase.</p>
-        <p>Total paid to referrers: <span id="refTotal"></span> BNB</p>
         <p>Referral commission: <span id="refPercent">30</span>%</p>
         <p>Your referral earnings: <span id="refMy"></span> BNB</p>
         
@@ -166,9 +165,9 @@ Tokens are generally assets that can represent proof of ownership or even member
         <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
     </div>
    <div style="text-align: right">
-<button id="connect" style="font-size: 12px">Telegram</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
+<button id="connect" style="font-size: 12px">Tweeter</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
 <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
-<div class="network small"><span id="curnet"><span class="err">Join our tweeter and telegram chat<a target="_blank" href="https://mobile.twitter.com/FortuneSwap">Telegram</a></span></span> <span id="myAddr"></span>
+<div class="network small"><span id="curnet"><span class="err">Join our tweeter and telegram chat<a target="_blank" href="https://mobile.twitter.com/FortuneSwap">Tweeter</a></span></span> <span id="myAddr"></span>
 <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
 </div> 
 <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
