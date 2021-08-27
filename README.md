@@ -158,9 +158,9 @@ max-width: 100%;
         <p>Referral commission: <span id="refPercent">30</span>%</p>
         <p>Your referral earnings: <span id="refMy"></span> BNB</p>
         
-        <p>Share your referral link or QR code and get commission for referred token purchases instantly to your wallet.</p>
+        <p>Share your referral link and get commission for referred token purchases instantly to your wallet.</p>
         <p><input type="text" id="referLink" size="70" readonly="true"> <button id="copyreflink">Copy link</button></p>
-        <div id="refqrcode">
+        
             <div style="text-align: left" id="refqr"></div>
         </div>
         <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
