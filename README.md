@@ -112,6 +112,7 @@ max-width: 100%;
     
     <div style="text-align: left">
         <h1>Token sale status</h1>
+     <p>  The FORTUNE token is FortuneSwap’s utility token which we have denominated as our Prosperity Token. 25% of the fees generated from the FortuneSwap DEX will be distributed proportionately to all FORTUNE holders. The more tokens you hold, the bigger the reward. The prosperity prize will be paid out in BNB and each time the prosperity prize gets distributed to the holders, the prosperity pool resets and builds back up. 
         <h1>
             <span id="active" style="display:none" class="status green">Active</span>
             <span id="finished" style="display:none" class="status green">Finished</span>
@@ -127,7 +128,7 @@ max-width: 100%;
     <div style="text-align: center">
         <h1>Buy tokens</h1>
         <p>1 BNB = <span class="rate">4000000000.0</span> <span class="tokenSymbol">FORTUNE</span></p>
-        <p><input type="number" id="buyAmount" value="1" min="0"> BNB</p>
+        <p><input type="number" id="buyAmount" value="0" min="0"> BNB</p>
         <p>You get: <span id="get">0</span> <span class="tokenSymbol">FORTUNE</span></p>
         <p><button id="buyBtn" style="text-align: center">Buy</button></p>
         <p>In my wallet: <span id="myTokens"></span> <span class="tokenSymbol">FORTUNE</span></p>
