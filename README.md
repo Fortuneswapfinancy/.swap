@@ -171,7 +171,8 @@ Tokens are generally assets that can represent proof of ownership or even member
    <div style="text-align: right">
 <button id="connect" style="font-size: 12px">Telegram</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
 <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
-<div class="network small"><span id="curnet"><span class="err">Join our telegram chat<a target="_blank" href="https://t.me/FortuneSwapFinance">Telegram</a></span></span> <span id="myAddr"></span>
+<div class="network small"><span id="curnet"><span class="err">Join our telegram chat<a target="_blank" href="https://t.me/FortuneSwapFinance">   
+    Telegram</a></span></span> <span id="myAddr"></span>
 <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
 </div> 
 <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
