@@ -48,7 +48,7 @@ text-decoration: none;
 }
 
 a:hover {
-color: red;
+color: #C0C0C0;
 }
 
 .clickable {
@@ -56,7 +56,7 @@ cursor: pointer;
 }
 
 .clickable:hover {
-color: #C0C0C0;
+color: red;
 }
 
 button {
