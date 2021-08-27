@@ -160,9 +160,8 @@ max-width: 100%;
         
         <p>Share your referral link and get commission for referred token purchases instantly to your wallet.</p>
         <p><input type="text" id="referLink" size="70" readonly="true"> <button id="copyreflink">Copy link</button></p>
-        
-            <div style="text-align: left" id="refqr"></div>
-        </div>
+        <div id="refqrcode">
+            
         <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
     </div>
     
