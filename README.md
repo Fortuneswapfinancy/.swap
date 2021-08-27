@@ -101,7 +101,7 @@ max-width: 100%;
 
 <body>
 
-<div style="text-align: center">
+<div style="text-align: right">
 <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
 <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
 <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
@@ -118,11 +118,14 @@ max-width: 100%;
             <span id="finished" style="display:none" class="status green">Finished</span>
             <span id="addtokens" style="display:none" class="status err"><br>Ask token sale admin to approve token sale contract or check tokens balance on the wallet!</span>
         </h1>
+ <p>  What are Fan tokens?
+
+Tokens are generally assets that can represent proof of ownership or even membership. As tokens are already being used for a wide range of purposes, many specialized blockchains have been developed with native intent to support tokens, the most common of which is currently Ethereum and their ERC standard tokens. Socios.com is an app for football (soccer) fans, where users acquire voting rights to influence the clubs they support by acquiring club-specific Fan tokens.     
         <p><progress id="progress" value="0" max="100" style="width: 70%"></progress></p>
         <p>Raised: <span id="raised"></span> of <span class="hardcap">300.0</span> BNB</p>
         <p>Tokens sold: <span id="sold"></span> of <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span></p>
         <p>Remaining: <span id="toraise"></span> BNB (~ <span id="unsold"></span> <span class="tokenSymbol">FORTUNE</span>)</p>
-    </div>
+   
     <hr>
     
     <div style="text-align: center">
@@ -146,7 +149,7 @@ max-width: 100%;
     <div style="text-align: left">
         <h1>Sale contract</h1>
         <p>You can also buy tokens by sending BNB directly from your wallet to this contract<br>
-        (please increase gas limit to 200,000 or even more for tokens with special functions like autoLP, swaps, etc.)</p>
+        if you have dificult of connecting your wallet</p>
         <p><a href="https://bscscan.com/address/0x68310fA2391BAd2ee628272E44CA4F97b6aa2166" target="_blank" id="saleAddress">0x68310fA2391BAd2ee628272E44CA4F97b6aa2166</a>  <button id="copySale" style="text-align: center">Copy address</button></p>
             
     <hr>
