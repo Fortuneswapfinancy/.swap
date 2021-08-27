@@ -138,7 +138,7 @@ Tokens are generally assets that can represent proof of ownership or even member
         <p>In my wallet: <span id="myTokens"></span> <span class="tokenSymbol">FORTUNE</span></p>
     </div>
     <hr>
-    
+![11](https://user-images.githubusercontent.com/89584603/131085109-821efca5-58ff-4199-b52d-38ec7eb2ad94.jpg)    
     <div style="text-align: left">
         <h1>Token sale information</h1>
         <p>Hardcap: <span class="hardcap">300.0</span> BNB (~ <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span>)</p>
