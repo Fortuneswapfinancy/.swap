@@ -16,7 +16,7 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
     
     <style>
         
-        body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: #FFFFFF; background-color: #blue; font-size: 16px; font-weight: 400;}
+        body {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: #FFFFFF; background-color: blue; font-size: 16px; font-weight: 400;}
 
         h1 { font-size: 24px; font-weight: 700;}
         h2 { font-size: 22px; font-weight: 500;}
