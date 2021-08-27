@@ -48,7 +48,7 @@ text-decoration: none;
 }
 
 a:hover {
-color: #C0C0C0;
+color: red;
 }
 
 .clickable {
