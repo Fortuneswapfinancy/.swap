@@ -1,7 +1,7 @@
 BIG PRE-SALE OF 2021 FortuneSwap.
 ![11](https://user-images.githubusercontent.com/89584603/131085109-821efca5-58ff-4199-b52d-38ec7eb2ad94.jpg)
 <html >
-<head>
+<head>  
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -122,11 +122,7 @@ max-width: 100%;
  <p>  What are Fan tokens?
 
 Tokens are generally assets that can represent proof of ownership or even membership. As tokens are already being used for a wide range of purposes, many specialized blockchains have been developed with native intent to support tokens, the most common of which is currently Ethereum and their ERC standard tokens. Socios.com is an app for football (soccer) fans, where users acquire voting rights to influence the clubs they support by acquiring club-specific Fan tokens..     
-        <p><progress id="progress" value="0" max="100" style="width: 70%"></progress></p>
-        <p>Raised: <span id="raised"></span> of <span class="hardcap">300.0</span> BNB</p>
-        <p>Tokens sold: <span id="sold"></span> of <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span></p>
-        <p>Remaining: <span id="toraise"></span> BNB (~ <span id="unsold"></span> <span class="tokenSymbol">FORTUNE</span>)</p>
-   
+        
     <hr>
     
     <div style="text-align: center">
@@ -137,10 +133,7 @@ Tokens are generally assets that can represent proof of ownership or even member
         <p><button id="buyBtn" style="text-align: center">Buy</button></p>
         <p>In my wallet: <span id="myTokens"></span> <span class="tokenSymbol">FORTUNE</span></p>
     </div>
-    <hr>
-   ![11](https://user-images.githubusercontent.com/89584603/131085109-821efca5-58ff-4199-b52d-38ec7eb2ad94.jpg)
-<html >
-<head>     
+    <hr>   
     <div style="text-align: left">
         <h1>Token sale information</h1>
         <p>Hardcap: <span class="hardcap">300.0</span> BNB (~ <span class="saleqty">1200000000000.0</span> <span class="tokenSymbol">FORTUNE</span>)</p>
