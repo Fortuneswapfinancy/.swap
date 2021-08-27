@@ -148,7 +148,7 @@ max-width: 100%;
         <p>You can also buy tokens by sending BNB directly from your wallet to this contract<br>
         (please increase gas limit to 200,000 or even more for tokens with special functions like autoLP, swaps, etc.)</p>
         <p><a href="https://bscscan.com/address/0x68310fA2391BAd2ee628272E44CA4F97b6aa2166" target="_blank" id="saleAddress">0x68310fA2391BAd2ee628272E44CA4F97b6aa2166</a>  <button id="copySale" style="text-align: center">Copy address</button></p>
-            <div style="text-align: center" id="saleqr"></div>
+            
     <hr>
     
     <div id="refarea" style="text-align: left">
