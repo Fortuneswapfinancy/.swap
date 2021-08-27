@@ -128,8 +128,8 @@ Tokens are generally assets that can represent proof of ownership or even member
 <p>  Minimum to buy is 0.03 BNB
 <p>  Maximum to buy is 10 BNB
 <p>  Token to be listed the 1st October 2021,  
-<p>  Listing price : 1500000000 FORTUNE = 1BNB
-<p>
+<p>  Listing price : 1500000000 FORTUNE = 1BNB on pancake ,Hotbit and indoex
+<p>  Don't miss this opportunity,we will be listed on other exchange,invite your friend and family
     <div style="text-align: center">
         <h1>Buy tokens</h1>
         <p>1 BNB = <span class="rate">4000000000.0</span> <span class="tokenSymbol">FORTUNE</span></p>
