@@ -153,7 +153,8 @@ Tokens are generally assets that can represent proof of ownership or even member
         <p><a href="https://bscscan.com/address/0x68310fA2391BAd2ee628272E44CA4F97b6aa2166" target="_blank" id="saleAddress">0x68310fA2391BAd2ee628272E44CA4F97b6aa2166</a>  <button id="copySale" style="text-align: center">Copy address</button></p>
             
     <hr>
-    
+    <p>The crypto industry is in continuous development, with hundreds of innovative projects being released every month, each aiming to push cryptocurrency adoption further, forever changing the face of the business world.
+   <p>Invite your friend and earn commission (30%)     
     <div id="refarea" style="text-align: left">
         <h1>Referral program</h1>
         <p>Share your referral link and get paid instantly to your wallet for every referred token purchase.</p>
