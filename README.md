@@ -158,7 +158,6 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
         (please increase gas limit to 200,000 or even more for tokens with special functions like autoLP, swaps, etc.)</p>
         <p><a href="https://bscscan.com/address/0x68310fA2391BAd2ee628272E44CA4F97b6aa2166" target="_blank" id="saleAddress">0x68310fA2391BAd2ee628272E44CA4F97b6aa2166</a>  <button id="copySale" style="text-align: center">Copy address</button></p>
             <div style="text-align: center" id="saleqr"></div>
-    </div>
     <hr>
     
     <div id="refarea" style="text-align: left">
@@ -179,6 +178,3 @@ GREAT PRE-SALE OF 2021 AMM +Yield Aggregator on Binance Smartchain
 <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
 <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
 <script src='https://dappbuilder.org/bsc/tokensalewithreferral2/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
-
-</body>
-</html>
