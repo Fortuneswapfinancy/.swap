@@ -56,11 +56,11 @@ cursor: pointer;
 }
 
 .clickable:hover {
-color: red;
+color: #C0C0C0;
 }
 
 button {
-background-color: #283747;
+background-color: red;
 border: none;
 border-radius: 2px;
 color: white;
