@@ -3,7 +3,7 @@ BIG PRE-SALE OF 2021 FortuneSwap.
 <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
 <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
 <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Trust wallet</a>)</span></span> <span id="myAddr"></span>
-<span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
+<span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>.
 </div>
 ![11](https://user-images.githubusercontent.com/89584603/131085109-821efca5-58ff-4199-b52d-38ec7eb2ad94.jpg)
 <html >
